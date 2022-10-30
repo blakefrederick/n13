@@ -1,5 +1,5 @@
 
-import Link from 'next/link'
+import NavLink from './nav-link'
 import '../styles/globals.css'
 
 export default function RootLayout({ children }) {
@@ -12,8 +12,8 @@ export default function RootLayout({ children }) {
       <body>
         <header className="border-b p-4">
           <nav className="space-x-4">
-            <Link href="/">Home</Link>
-            <Link href="/1999">1999</Link>
+            <NavLink href="/">Home</NavLink>
+            <NavLink href="/1999">1999</NavLink>
           </nav>    
         </header>  
         <div className="p-4">
