@@ -10,15 +10,13 @@ export default function Layout({ children }) {
     let data1999 = use(get1999())
 
     return (
-        <div className="flex">
+        <div className="max-w-lg">
             <ul className="pr-10 text-sm">
                 {data1999.map((data) => (
-                    <li key={data.id}><Link href={`/1999/${data.id}`}>{data.title}</Link></li>
+                    <li className="underline py-1" key={data.id}><Link href={`/1999/${data.id}`}>{data.title}</Link></li>
                 ))}
             </ul>
-
-            <div>{children}</div>     
-
+            <div className="py-10">{children}</div>     
         </div>
     )
 }

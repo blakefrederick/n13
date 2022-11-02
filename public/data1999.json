@@ -3,14 +3,14 @@
         "id": 1,
         "title": "Everything That Happened in '99",
         "year": "1999",
-        "video_url": "https://www.youtube.com/watch?v=Rvugv3QYSdM",
+        "video_url": "https://www.youtube.com/embed/Rvugv3QYSdM",
         "description": "1999 would end the decade, and the 20th Century, on a cliffhanger with the dreaded Y2K. The year '99 would feature infamous moments like Bill Clinton's impeachment trial and Columbine, but also, iconic ones like the release of \"Livin' La Vida Loca\" and \"The Matrix\" going to the big screen."
     },
     {
         "id": 2,
         "title": "An IT expert explaining Internet Explorer 5 when it launched in 1999",
         "year": "1999",
-        "video_url": "https://www.youtube.com/watch?v=m3ncf42Vko4",
+        "video_url": "https://www.youtube.com/embed/m3ncf42Vko4",
         "description": "An expert on the web world explaining how the Internet Explorer 5 works. He explains how it is different than other browsers that are used before its launch. He explains the different features updated in the web browser."
     }
 ]
